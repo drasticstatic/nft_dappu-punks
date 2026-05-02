@@ -1,4 +1,7 @@
 # Dapp Punks NFT Collection
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat)](https://github.com/drasticstatic/.github)
+
 A decentralized application (DApp) for minting and managing NFT collections 🌠
 
 ## ✨ Project Overview
