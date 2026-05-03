@@ -91,6 +91,7 @@ function App() {
   const loadBlockchainData = async (userAccount = null) => {
     if (!window.ethereum) {
       console.error('MetaMask not found')
+      setIsLoading(false)
       return
     }
 
