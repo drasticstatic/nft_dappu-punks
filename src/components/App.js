@@ -41,6 +41,7 @@ import NFT_ABI from '../abis/NFT.json'
 
 // Network configuration containing contract addresses for different networks
 import config from '../config.json';
+import GHPagesBanner from './GHPagesBanner';
 
 /**
  * @dev Main App component that orchestrates the entire application
@@ -192,6 +193,8 @@ function App() {
 
 
   return(
+    <>
+    <GHPagesBanner />
     <Container>
       <Navigation
         account={account}
@@ -289,6 +292,7 @@ function App() {
         </>
       )}
     </Container>
+    </>
   )
 }
 
