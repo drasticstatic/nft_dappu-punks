@@ -1,6 +1,11 @@
 # Dapp Punks NFT Collection
 
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat)](https://drasticstatic.github.io/nft_dappu-punks)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat)](https://github.com/drasticstatic/.github)
+
+**[→ View Live Demo](https://drasticstatic.github.io/nft_dappu-punks)**
+
+> **Note:** The live demo runs against a local Hardhat node. NFT minting requires the local node running with contracts deployed. The collection gallery and minting interface are fully explorable without a wallet.
 
 A decentralized application (DApp) for minting and managing NFT collections 🌠
 
