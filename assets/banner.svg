@@ -16,47 +16,49 @@
     .halo { opacity: 0 }
   </style>
   <defs>
-    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a2230"/><stop offset="1" stop-color="#101622"/></linearGradient>
-    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="668" y1="0" x2="1160" y2="0"><stop offset="0.00" stop-color="#8a6a2a"/><stop offset="0.50" stop-color="#d9a441"/><stop offset="1.00" stop-color="#e6d1a6"/></linearGradient>
-    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="620" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#d9a441" stop-opacity="0"/><stop offset=".35" stop-color="#d9a441"/><stop offset="1" stop-color="#e6d1a6"/></linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#0f3460"/></linearGradient>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="668" y1="0" x2="1160" y2="0"><stop offset="0.00" stop-color="#804c5a"/><stop offset="0.50" stop-color="#b87082"/><stop offset="1.00" stop-color="#ddb5bf"/></linearGradient>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="620" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#b87082" stop-opacity="0"/><stop offset=".35" stop-color="#b87082"/><stop offset="1" stop-color="#ddb5bf"/></linearGradient>
     <clipPath id="card"><rect width="1200" height="260" rx="18"/></clipPath>
+    <radialGradient id="ember" gradientUnits="userSpaceOnUse" cx="962" cy="124" r="390"><stop offset="0" stop-color="#800020" stop-opacity=".8"/><stop offset=".6" stop-color="#5c1a2b" stop-opacity=".45"/><stop offset="1" stop-color="#5c1a2b" stop-opacity="0"/></radialGradient>
   </defs>
   <g clip-path="url(#card)">
     <!-- an opaque ground: the same picture on GitHub's light and dark themes -->
     <rect width="1200" height="260" fill="url(#ground)"/>
-    <circle class="halo" cx="1033.3" cy="106.4" r="13" fill="none" stroke="#e6d1a6" stroke-width="2"/>
-    <path class="draw" pathLength="100" d="M1033.3 106.4L1051.4 168.7" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.30s"/>
-    <path class="draw" pathLength="100" d="M1051.4 168.7L989.8 189.8" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.52s"/>
-    <path class="draw" pathLength="100" d="M989.8 189.8L923.4 207.5" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.74s"/>
-    <path class="draw" pathLength="100" d="M1033.3 106.4L964.3 117.4" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.96s"/>
-    <path class="draw" pathLength="100" d="M964.3 117.4L895.6 133.8" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.18s"/>
-    <path class="draw" pathLength="100" d="M1033.3 106.4L1094.1 70.3" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.40s"/>
-    <path class="draw" pathLength="100" d="M1094.1 70.3L1144.8 112.9" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.62s"/>
-    <path class="draw" pathLength="100" d="M1051.4 168.7L1122.0 201.4" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.84s"/>
-    <path class="draw" pathLength="100" d="M895.6 133.8L911.3 48.2" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.06s"/>
-    <path class="draw" pathLength="100" d="M911.3 48.2L839.9 41.5" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.28s"/>
-    <path class="draw" pathLength="100" d="M839.9 41.5L786.6 84.4" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.50s"/>
-    <path class="draw" pathLength="100" d="M786.6 84.4L719.3 63.8" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.72s"/>
-    <path class="draw" pathLength="100" d="M719.3 63.8L717.0 141.4" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.94s"/>
-    <path class="draw" pathLength="100" d="M717.0 141.4L737.1 203.1" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.16s"/>
-    <path class="draw" pathLength="100" d="M737.1 203.1L799.5 163.6" fill="none" stroke="#705c38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.38s"/>
-    <circle class="arrive" style="animation-delay:0.15s" cx="1033.3" cy="106.4" r="8.0" fill="#d9a441"/>
-    <circle class="arrive" style="animation-delay:0.39s" cx="911.3" cy="48.2" r="3.5" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:0.63s" cx="717.0" cy="141.4" r="5.6" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:0.87s" cx="719.3" cy="63.8" r="5.5" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:1.11s" cx="895.6" cy="133.8" r="5.7" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:1.35s" cx="799.5" cy="163.6" r="5.6" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:1.59s" cx="964.3" cy="117.4" r="4.2" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:1.83s" cx="989.8" cy="189.8" r="6.1" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:2.07s" cx="1122.0" cy="201.4" r="6.3" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:2.31s" cx="1094.1" cy="70.3" r="4.0" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:2.55s" cx="737.1" cy="203.1" r="5.7" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:2.79s" cx="1051.4" cy="168.7" r="4.1" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:3.03s" cx="839.9" cy="41.5" r="4.9" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:3.27s" cx="923.4" cy="207.5" r="5.9" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:3.51s" cx="1144.8" cy="112.9" r="3.5" fill="#e6d1a6"/>
-    <circle class="arrive" style="animation-delay:3.75s" cx="786.6" cy="84.4" r="3.7" fill="#e6d1a6"/>
-    <rect x="0.0" y="248" width="300.5" height="12" fill="#334155"/><rect x="300.0" y="248" width="300.5" height="12" fill="#8a6a2a"/><rect x="600.0" y="248" width="300.5" height="12" fill="#d9a441"/><rect x="900.0" y="248" width="300.5" height="12" fill="#f1f5f9"/>
-    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif"><text x="56" y="72.0" fill="#d9a441" font-size="15" font-weight="700" letter-spacing=".6">DappU mentorship</text><text x="56" y="137.6" fill="#f1f5f9" font-size="60" font-weight="700" letter-spacing="-.5">nft_dappu-punks</text><text x="56" y="181.4" fill="#d3d7dd" font-size="23">Mint, view and manage an ERC721 collection</text></g>
+    <rect width="1200" height="260" fill="url(#ember)"/>
+    <circle class="halo" cx="1033.3" cy="106.4" r="13" fill="none" stroke="#ddb5bf" stroke-width="2"/>
+    <path class="draw" pathLength="100" d="M1033.3 106.4L1051.4 168.7" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.30s"/>
+    <path class="draw" pathLength="100" d="M1051.4 168.7L989.8 189.8" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.52s"/>
+    <path class="draw" pathLength="100" d="M989.8 189.8L923.4 207.5" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.74s"/>
+    <path class="draw" pathLength="100" d="M1033.3 106.4L964.3 117.4" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:0.96s"/>
+    <path class="draw" pathLength="100" d="M964.3 117.4L895.6 133.8" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.18s"/>
+    <path class="draw" pathLength="100" d="M1033.3 106.4L1094.1 70.3" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.40s"/>
+    <path class="draw" pathLength="100" d="M1094.1 70.3L1144.8 112.9" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.62s"/>
+    <path class="draw" pathLength="100" d="M1051.4 168.7L1122.0 201.4" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:1.84s"/>
+    <path class="draw" pathLength="100" d="M895.6 133.8L911.3 48.2" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.06s"/>
+    <path class="draw" pathLength="100" d="M911.3 48.2L839.9 41.5" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.28s"/>
+    <path class="draw" pathLength="100" d="M839.9 41.5L786.6 84.4" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.50s"/>
+    <path class="draw" pathLength="100" d="M786.6 84.4L719.3 63.8" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.72s"/>
+    <path class="draw" pathLength="100" d="M719.3 63.8L717.0 141.4" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:2.94s"/>
+    <path class="draw" pathLength="100" d="M717.0 141.4L737.1 203.1" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.16s"/>
+    <path class="draw" pathLength="100" d="M737.1 203.1L799.5 163.6" fill="none" stroke="#614154" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="animation-delay:3.38s"/>
+    <circle class="arrive" style="animation-delay:0.15s" cx="1033.3" cy="106.4" r="8.0" fill="#b87082"/>
+    <circle class="arrive" style="animation-delay:0.39s" cx="911.3" cy="48.2" r="3.5" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:0.63s" cx="717.0" cy="141.4" r="5.6" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:0.87s" cx="719.3" cy="63.8" r="5.5" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:1.11s" cx="895.6" cy="133.8" r="5.7" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:1.35s" cx="799.5" cy="163.6" r="5.6" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:1.59s" cx="964.3" cy="117.4" r="4.2" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:1.83s" cx="989.8" cy="189.8" r="6.1" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:2.07s" cx="1122.0" cy="201.4" r="6.3" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:2.31s" cx="1094.1" cy="70.3" r="4.0" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:2.55s" cx="737.1" cy="203.1" r="5.7" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:2.79s" cx="1051.4" cy="168.7" r="4.1" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:3.03s" cx="839.9" cy="41.5" r="4.9" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:3.27s" cx="923.4" cy="207.5" r="5.9" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:3.51s" cx="1144.8" cy="112.9" r="3.5" fill="#ddb5bf"/>
+    <circle class="arrive" style="animation-delay:3.75s" cx="786.6" cy="84.4" r="3.7" fill="#ddb5bf"/>
+    <rect x="0.0" y="248" width="300.5" height="12" fill="#1a1a2e"/><rect x="300.0" y="248" width="300.5" height="12" fill="#5c1a2b"/><rect x="600.0" y="248" width="300.5" height="12" fill="#800020"/><rect x="900.0" y="248" width="300.5" height="12" fill="#fbeef1"/>
+    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif"><text x="56" y="72.0" fill="#c78f9d" font-size="15" font-weight="700" letter-spacing=".6">DappU mentorship</text><text x="56" y="137.6" fill="#fbeef1" font-size="60" font-weight="700" letter-spacing="-.5">nft_dappu-punks</text><text x="56" y="181.4" fill="#dcd0d6" font-size="23">Mint, view and manage an ERC721 collection</text></g>
   </g>
 </svg>
